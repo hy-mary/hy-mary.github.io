@@ -1,1 +1,151 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hyeonyeong Nam 💕 — Homepage</title>
+  <meta name="description" content="Personal academic homepage of Hyeonyeong Nam (남현영), Ph.D. student at Korea University." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">Hyeonyeong Nam</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section about">
+      <div class="about-grid">
+        <div class="about-photo">
+          <!-- Put your photo at assets/img/profile.jpg -->
+          <img src="assets/img/tmp_profile.jpg" alt="Hyeonyeong Nam"
+               onerror="this.style.opacity=.25;this.alt='(add assets/img/tmp_profile.jpg)'" />
+          <ul class="contact">
+            <li><span>✉</span> <a href="mailto:hy_nam@korea.ac.kr">hy_nam@korea.ac.kr</a></li>
+            <li><span>◎</span> <a href="https://scholar.google.com/citations?user=5KXsKNMAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
+            <li><span>⌥</span> <a href="https://github.com/hy-mary" target="_blank" rel="noopener">Github</a></li>
+            <li><span>in</span> <a href="https://www.linkedin.com/in/hy2mary/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><span>↓</span> <a href="assets/pdf/cv.pdf" target="_blank" rel="noopener">CV (TBU)</a></li>
+          </ul>
+        </div>
+
+        <div class="about-text">
+          <h1>Hyeonyeong Nam <span class="hangul">(남현영)</span></h1>
+          <p class="affil">Ph.D. Candidate</p>
+          <p class="affil">Department of Artificial Intelligence, Korea University</p>
+          <!-- TODO: put the real MAILAB URL in the href below -->
+          <p class="affil-sub">Advisor: Prof. Tae-Eui Kam · <a href="http://mailab.korea.ac.kr/" target="_blank" rel="noopener">MAILAB</a>, Korea University</p>
+
+          <p>
+            I am an integrated M.S.–Ph.D. student in the Department of Artificial Intelligence
+            at Korea University, working on <strong>AI for science</strong>.
+            My current research focuses on multimodal generative models that bridge molecular
+            structure and spectroscopy &mdash; combining mass spectrometry (MS) and NMR for
+            structure elucidation. I am also interested in making scientific discovery faster
+            and more reliable with AI for medical and healthcare applications.
+          </p>
+          <p>
+            I previously worked on self-supervised molecular representation learning.
+            Outside of research, I love running and hiking. Feel free to reach out!
+          </p>
+
+          <p class="tags">
+            <span>AI for Science</span>
+            <span>Generative Models</span>
+            <span>Molecular Optimization</span>
+            <span>Mass Spectrometry &amp; NMR</span>
+          </p>
+
+          <!-- ===== Education ===== -->
+          <h2 class="sub">Education</h2>
+          <ul class="awards">
+            <li><span class="yr">2022.09- </span>Integrated M.S.-Ph.D. in Artificial Intelligence, Korea University</li>
+            <li><span class="yr">2022.04</span> B.Sc. in Information Technology, University of Technology Sydney
+              <br><span class="muted">Major: Data Analytics · Sub-major: Enterprise Systems Development</span></li>
+          </ul>
+
+          <!-- ===== Teaching ===== -->
+          <h2 class="sub">Teaching</h2>
+          <ul class="awards">
+            <li><span class="yr">2022</span> Tutor, <em>[Deep Learning]</em>, LG CNS </li>
+            <li><span class="yr">2022</span> Tutor, <em>[Machine Learning]</em>, LG CNS</li>
+            <!--<li><span class="yr">20XX</span> Tutor, <em>[Subject]</em>, [Institution]</li> -->
+
+          <!-- ===== Honors & Awards (Dean's List goes here) ===== -->
+          <h2 class="sub">Honors &amp; Awards</h2>
+          <ul class="awards">
+            <li><span class="yr">2021</span> <strong>Dean's List</strong>, Information Technology, University of Technology Sydney</li>
+            <!-- add more awards here, newest first -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NEWS ===================== -->
+    <section id="news" class="section">
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">Jun 2026</span> Launched my personal homepage 🎉</li>
+
+        <!-- Add newest items at the top. -->
+      </ul>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <p class="hint">* = equal contribution; <u>underline</u> = me.</p>
+      <li>I'm going to update soon! Meanwhile, please refer to my Google Scholar profile 🥰</li>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>K-MELLODDY</h3>
+          <p>Federated machine-learning consortium for drug discovery, enabling
+             multi-partner model training without sharing proprietary data.
+             <!-- TODO: add your specific role / contribution. --></p>
+          <p class="pub-links"><a href="#">Website</a> · <a href="#">Details</a></p>
+        </article>
+
+        <article class="project">
+          <h3>MS + NMR Multimodal Diffusion</h3>
+          <p>Generative model that jointly conditions on mass spectrometry and NMR
+             to elucidate molecular structure.</p>
+          <p class="pub-links"><a href="#">Code</a> · <a href="#">Details</a></p>
+        </article>
+
+        <article class="project">
+          <h3>Self-Supervised Molecular Representation Learning</h3>
+          <p>Pretraining molecular encoders on large unlabeled corpora for
+             downstream property prediction.</p>
+          <p class="pub-links"><a href="#">Code</a></p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="yr">2026</span> Hyeonyeong Nam. Built with plain HTML/CSS, hosted on GitHub Pages.</p>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+  <!-- mark your own name so it gets bolded in the author lists -->
+  <script>window.MY_NAME_KEYS = ["Nam, Hyeonyeong", "H. Nam", "Hyeonyeong Nam", "Nam H"];</script>
+  <script src="assets/js/pubs.js"></script>
+</body>
+</html>
